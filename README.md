@@ -25,7 +25,7 @@ This is a simple Python script that allows you to download an eTextbook from Che
   $ python3 CheggDownloader.py <paste e-ISBN here> <starting page> <ending page> -i <maximum pages you can download at once>
   $ # Example
   $ python3 CheggDownloader.py 1234567890123 1 999 -i 5
-  $ # Download to a specified folder (will be created is doesn't exist)
+  $ # Download to a specified folder (will be created if doesn't exist)
   $ python3 CheggDownloader.py 1234567890123 1 999 -i 5 --out-dir=book/
   ```
   
